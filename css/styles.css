@@ -54,6 +54,11 @@ a, a:hover, a:active, a:visited{
     padding: 10px 15px;
 }
 
+.social-links__icon {
+    width: 60px;
+    height: 60px;
+}
+
 .contacts{
 
 }
