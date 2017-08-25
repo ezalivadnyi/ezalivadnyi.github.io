@@ -32,14 +32,11 @@ a, a:hover, a:active, a:visited{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-.container{
-    width: 980px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
+
 .copyright{
     text-align: center;
 }
+
 .social-links{
 
 }
@@ -59,8 +56,12 @@ a, a:hover, a:active, a:visited{
 }
 
 .social-links__link{
-    display: block;
     padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .social-links__icon {
@@ -92,7 +93,7 @@ a, a:hover, a:active, a:visited{
 }
 
 .contacts__icon{
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
 }
 
