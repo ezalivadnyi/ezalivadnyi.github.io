@@ -10,18 +10,26 @@ a, a:hover, a:active, a:visited{
     text-align: center;
     margin: 0 auto;
 }
+
 .image-avatar img{
     width: 200px;
     height: auto;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+
 }
+
+.image-avatar img:hover {
+    background-clip: content-box;
+    box-shadow: 0 0 0 3px rgba(red, 0.5);
+}
+
 .image-avatar img:hover{
     transform: scale(1.1);
 }
 .title{
-    font: 50px/55px 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .container{
