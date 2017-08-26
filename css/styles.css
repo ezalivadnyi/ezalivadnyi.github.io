@@ -1,10 +1,5 @@
 body{
-    background-color:black;
-    color: #fff;
-    font: 18px/25px 'Roboto', sans-serif;
-}
-a, a:hover, a:active, a:visited{
-    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 .image-avatar{
     text-align: center;
@@ -17,20 +12,13 @@ a, a:hover, a:active, a:visited{
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-
+    box-shadow: 0 0 10px 3px rgba(12, 12, 12, 0.96);
 }
 
-.image-avatar img:hover {
-    background-clip: content-box;
-    box-shadow: 0 0 0 3px rgba(red, 0.5);
-}
 
 .image-avatar img:hover{
-    transform: scale(1.1);
-}
-.title{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 3px rgb(97, 9, 0);
 }
 
 .copyright{
@@ -56,7 +44,6 @@ a, a:hover, a:active, a:visited{
 }
 
 .social-links__link{
-    padding: 10px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,8 +52,8 @@ a, a:hover, a:active, a:visited{
 }
 
 .social-links__icon {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
 }
 
 .contacts{
@@ -88,8 +75,10 @@ a, a:hover, a:active, a:visited{
 }
 
 .contacts__link{
-    display: block;
-    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts__icon{
