@@ -86,3 +86,7 @@ body{
     height: 30px;
 }
 
+.label.primary{
+    color: white;
+    font-size: 18px;
+}
