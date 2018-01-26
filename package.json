@@ -1,0 +1,19 @@
+{
+  "name": "ezalivadnyi.github.loc",
+  "version": "1.0.0",
+  "description": "Source code of Eugene Zalivadnyi's blog http://zalivadnyi.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezalivadnyi/ezalivadnyi.github.io.git"
+  },
+  "author": "Eugene Zalivadnyi <eugene.zalivadnyi@gmail.com> (http://ezalivadnyu.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezalivadnyi/ezalivadnyi.github.io/issues"
+  },
+  "homepage": "https://github.com/ezalivadnyi/ezalivadnyi.github.io#readme"
+}
