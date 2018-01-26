@@ -1,5 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #e6f7d9;
+    font-size: 18px;
+    line-height: 22px;
 }
 .header-logo__image-avatar{
     text-align: center;
@@ -109,7 +112,7 @@ a:hover{
 }
 .header-fixed-top{
     display: block;
-    position: fixed;
+    position: static;
     z-index: 1;
     padding: 20px;
     margin: auto;
