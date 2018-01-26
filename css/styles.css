@@ -43,7 +43,10 @@ body{
 .social-links__item{
     margin-right: 10px;
 }
-
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .social-links__link{
     display: flex;
     flex-direction: column;
