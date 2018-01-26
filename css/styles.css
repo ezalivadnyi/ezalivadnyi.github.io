@@ -82,6 +82,7 @@ a:hover{
 .contacts__item{
     width: 100%;
     margin-right: 10px;
+    margin-bottom: 15px;
 }
 .contacts__item-icon,
 .social-links__link img{
