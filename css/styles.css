@@ -80,7 +80,10 @@ a:hover{
 .contacts__item{
     margin-right: 10px;
 }
-
+.contacts__item-icon,
+.social-links__link img{
+    width: 40px;
+}
 .contacts__link{
     display: flex;
     flex-direction: column;
