@@ -78,17 +78,21 @@ a:hover{
 }
 
 .contacts__item{
+    width: 100%;
     margin-right: 10px;
 }
 .contacts__item-icon,
 .social-links__link img{
     width: 40px;
 }
+.contacts__item-icon{
+    margin-right: 15px;
+}
 .contacts__link{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .contacts__icon{
