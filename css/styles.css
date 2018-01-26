@@ -1,12 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.image-avatar{
+.header-logo__image-avatar{
     text-align: center;
     margin: 0 auto;
 }
 
-.image-avatar img{
+.header-logo__image-avatar img{
     width: 100px;
     height: auto;
     max-height: 100px;
@@ -16,7 +16,7 @@ body{
     /* box-shadow: 0 0 10px 3px rgb(0, 255, 193); */
 }
 
-.image-avatar img:hover{
+.header-logo__image-avatar img:hover{
     transform: scale(1.02);
     box-shadow: 0 0 10px 3px rgb(97, 9, 0);
 }
