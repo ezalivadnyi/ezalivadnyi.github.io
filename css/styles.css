@@ -12,7 +12,7 @@ body{
 .header-logo__image-avatar img{
     width: 100px;
     height: auto;
-    max-height: 100px;
+    max-height: 320px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -48,6 +48,7 @@ body{
     width: 85px;
     height: 66px;
 }
+a[]
 a:hover{
     cursor: pointer;
     text-decoration: underline;
@@ -110,14 +111,19 @@ a:hover{
     color: white;
     font-size: 18px;
 }
+.utp{
+    line-height: 1.1;
+}
 .header-fixed-top{
     display: block;
     position: static;
     z-index: 1;
     padding: 20px;
     margin: auto;
-    background: #ffffff;
  }
 .header-logo{
-    display: flex;
+}
+
+.header-logo__text{
+    text-align: center;
 }
