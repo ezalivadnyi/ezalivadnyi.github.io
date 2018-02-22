@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #e6f7d9;
+    background-color: #111111;
+    color: #ffffff;
     font-size: 18px;
     line-height: 22px;
 }
@@ -48,8 +49,14 @@ body{
     width: 85px;
     height: 66px;
 }
-a[]
+#particles-js{
+    position: absolute;
+}
+a,a:visited{
+    color: #fff;
+}
 a:hover{
+    color: #eaeaea;
     cursor: pointer;
     text-decoration: underline;
 }
