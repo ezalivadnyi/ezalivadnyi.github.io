@@ -12,6 +12,7 @@ body{
 
 .header-logo__image-avatar img{
     width: 250px;
+
     height: auto;
     max-height: 250px;
     -webkit-border-radius: 50%;
