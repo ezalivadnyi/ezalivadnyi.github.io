@@ -7,7 +7,7 @@ body{
 }
 .header-logo__image-avatar{
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 40px;
 }
 
 .header-logo__image-avatar img{
