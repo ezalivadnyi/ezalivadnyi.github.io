@@ -39,7 +39,7 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -71,7 +71,6 @@ a:hover{
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .social-links__icon {
     width: 30px;
     height: 30px;
