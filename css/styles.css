@@ -39,16 +39,14 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .social-links__item{
-    margin-right: 10px;
-    min-width: 85px;
-    height: 80px;
+    margin-bottom: 15px;
 }
 #particles-js{
     position: absolute;
@@ -66,7 +64,6 @@ a:hover{
 }
 .social-links__link{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -94,13 +91,15 @@ a:hover{
 }
 
 .contacts__item{
+    display: flex;
     width: 100%;
     margin-right: 10px;
     margin-bottom: 15px;
 }
 .contacts__item-icon,
 .social-links__link img{
-    width: 40px;
+    width: 25px;
+    margin-right: 10px;
 }
 .contacts__item-icon{
     margin-right: 15px;
