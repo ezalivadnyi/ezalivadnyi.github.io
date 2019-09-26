@@ -11,23 +11,23 @@ body{
 }
 
 .header-logo__image-avatar img{
-    width: 250px;
-
+    width: 150px;
     height: auto;
     max-height: 250px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    /* box-shadow: 0 0 10px 3px rgb(0, 255, 193); */
+    box-shadow: 0 0 10px 3px rgb(97, 9, 0);
 }
 
 .header-logo__image-avatar img:hover{
     transform: scale(1.02);
-    box-shadow: 0 0 10px 3px rgb(97, 9, 0);
+    box-shadow: 0 0 10px 3px rgb(255, 0, 0);
 }
 
 .copyright{
     text-align: center;
+    padding: 20px;
 }
 
 .social-links{
@@ -40,7 +40,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -52,21 +52,29 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: -100;
 }
-a,a:visited{
-    color: #fff;
+a{
+    color: #2b7bb9;
     text-decoration: none;
+    outline: 0;
 }
+a:visited{
+    color: #2b7bb9;
+    text-decoration: none;
+    outline: 0;
+ }
 a:hover{
     color: #eaeaea;
     cursor: pointer;
     text-decoration: underline;
+    outline: 0;
 }
 .social-links__link{
-    display: flex;
+    /*display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 .social-links__icon {
     width: 30px;
@@ -98,12 +106,10 @@ a:hover{
 }
 .contacts__item-icon,
 .social-links__link img{
-    width: 25px;
-    margin-right: 10px;
+    width: 20px;
+    margin: 0 10px;
 }
-.contacts__item-icon{
-    margin-right: 15px;
-}
+
 .contacts__link{
     display: flex;
     flex-direction: row;
@@ -135,4 +141,10 @@ a:hover{
 
 .header-logo__text{
     text-align: center;
+}
+
+.portfolio-case{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #2b7bb9;
 }
