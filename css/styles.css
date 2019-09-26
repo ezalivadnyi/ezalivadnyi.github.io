@@ -148,3 +148,22 @@ a:hover{
     border-radius: 10px;
     border: 1px solid #2b7bb9;
 }
+
+.skills-list{
+    list-style: none;
+    display: flex;
+}
+.skills-list li{
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.alert-success{
+    background-color: #3cbb5a;
+}
+
+.alert-info{
+    background-color: #03b2f5;
+    color: black;
+}
