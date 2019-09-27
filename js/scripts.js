@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     var myFullpage = new fullpage('#fullpage', {
 		sectionsColor: [
-		    'rgba(31, 183, 255, 0.51)',
+		    'rgba(20, 114, 255, 0.75)',
             'rgba(0, 0, 0, 0.23)',
             'rgba(73, 119, 204, 0.42)',
             'rgba(38, 14, 236, 0.18)',
