@@ -3,11 +3,13 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Eugene Zalivadnyi - Full-Stack Web Developer</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/fullpage.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 
 	<!-- Favicon start -->
@@ -35,81 +37,156 @@
 
 <div id="particles-js"></div>
 
-<header class="page-header pt-5">
-	<div class="header-logo__image-avatar">
-		<img src="images/ava.jpg" alt="">
-	</div>
-	<h1 class="text-center">Eugene Zalivadniy</h1>
-	<h3 class="text-center">Full-Stack Web Developer</h3>
+<ul id="menu">
+	<li data-menuanchor="page-header" class="active"><a href="#page-header">About Me</a></li>
+	<li data-menuanchor="skillsPage"><a href="#skillsPage">Skills</a></li>
+	<li data-menuanchor="advantagesPage"><a href="#advantagesPage">Advantages</a></li>
+	<li data-menuanchor="portfolioPage"><a href="#portfolioPage">Portfolio</a></li>
+	<li data-menuanchor="contactsPage"><a href="#contactsPage">Contacts</a></li>
+	<li data-menuanchor="page-footer"><a href="#page-footer">Portfolio</a></li>
+</ul>
 
-	<div class="text-center pt-3">Hello! My name is Eugene and I'm a Software Engineer. <br> I making high-quality modern Web Applications for Business and Startup's.</div>
+<div id="fullpage">
+	<header class="section page-header fullscreen">
+		<div class="header-logo__image-avatar mb-2">
+			<img src="images/ava.jpg" alt="">
+		</div>
+		<h1 class="text-center">Eugene Zalivadniy</h1>
+		<h3 class="text-center">Software Engineer</h3>
 
-    <section class="skills pt-5">
-        <div class="container">
-            <div class="row">
-                <h2>Stack (Skills and Technologies, that I know and use)</h2>
-            </div>
+		<div class="text-center pt-3">
+			Hi! I'm a <a href="https://www.w3schools.com/whatis/whatis_fullstack.asp"
+							title="A person who can develop both client side and server side software. In addition to mastering HTML and CSS, he/she also knows how to program a server and database."
+							target="_blank">Full-Stack</a> Web Developer from <a href="https://google.com/search?q=Kherson"
+																				 title="City in southern Ukraine. Functions as administrative center, an important port on the Black Sea and on the Dnieper River, and the home of a major ship-building industry. Was founded in 1778. Kherson is connected to the national railroad network of Ukraine. There are daily long-distance services to Kiev, Lviv and other cities. Kherson is served by Kherson International Airport providing both passport and customs control."
+																				target="_blank">Kherson, Ukraine</a>.<br>
+			I'm in love with technologies.<br>
+			I making high-quality modern Web Applications with <a
+				href="https://www.djangoproject.com/"
+				target="_blank"
+				title="The Web framework for perfectionists with deadlines. Django makes it easier to build better Web apps more quickly and with less code."
+		>Django</a> and
+			<a
+					href="https://angular.io/"
+					target="_blank"
+					title="TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations."
+			>Angular</a>.<br>
+			Scroll Down and read more about me below.
+		</div>
 
-            <div class="d-flex flex-column align-items-start">
-                <div class="d-flex justify-content-center align-items-center pt-2">
-                    <div class="alert alert-success p-2">Front-end:</div>
-                    <ul class="skills-list">
-                        <li class="alert alert-info">PSD-to-HTML</li>
-                        <li class="alert alert-info">HTML5</li>
-                        <li class="alert alert-info">CSS3</li>
-                        <li class="alert alert-info">JavaScript</li>
-                        <li class="alert alert-info">NPM</li>
-                        <li class="alert alert-info">ES</li>
-                        <li class="alert alert-info">Gulp</li>
-                        <li class="alert alert-info">Webpack</li>
-                        <li class="alert alert-info">Babel</li>
-                        <li class="alert alert-info">jQuery</li>
-                        <li class="alert alert-info">Angular 2+ Framework</li>
-                    </ul>
-                </div>
+		<div class="scroll-down" id="js-scroll-down" title="Scroll Down!">
+			<img class="scroll-down-mouse" src="images/mouse-scroll-down.png" alt="">
+			<div class="downArrow bounce">
+				<img class="scroll-down-arrows" src="images/scroll-down-arrows.gif" alt="">
+			</div>
+		</div>
+	</header>
 
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="alert alert-success p-2">UI Frameworks:</div>
-                    <ul class="skills-list">
-                        <li class="alert alert-info">Twitter Bootstrap</li>
-                        <li class="alert alert-info">Material Design</li>
-                        <li class="alert alert-info">Zurb Foundation (usefull for PSD-to-Email)</li>
-                    </ul>
-                </div>
+	<section class="section skills fullscreen pt-5" id="js-skills-screen">
+		<div class="container">
+			<div class="row">
+				<h2>Stack (Skills and Technologies, that I know and use)</h2>
+			</div>
 
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="alert alert-success p-2">Back-end:</div>
-                    <ul class="skills-list">
-                        <li class="alert alert-info">Python</li>
-                        <li class="alert alert-info">Flask</li>
-                        <li class="alert alert-info">Django</li>
-                        <li class="alert alert-info">Django Rest Framework</li>
-                    </ul>
-                </div>
+			<div class="d-flex flex-column align-items-start">
+				<div class="d-flex justify-content-center align-items-center pt-2">
+					<div class="alert alert-success p-2">Front-end:</div>
+					<ul class="skills-list">
+						<li class="alert alert-info">PSD-to-HTML</li>
+						<li class="alert alert-info">HTML5</li>
+						<li class="alert alert-info">CSS3</li>
+						<li class="alert alert-info">JavaScript</li>
+						<li class="alert alert-info">NPM</li>
+						<li class="alert alert-info">ES</li>
+						<li class="alert alert-info">Gulp</li>
+						<li class="alert alert-info">Webpack</li>
+						<li class="alert alert-info">Babel</li>
+						<li class="alert alert-info">jQuery</li>
+						<li class="alert alert-info">Angular 2+ Framework</li>
+					</ul>
+				</div>
 
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="alert alert-success p-2">DB:</div>
-                    <ul class="skills-list">
-                        <li class="alert alert-info">SQLite</li>
-                        <li class="alert alert-info">PostrgreSQL</li>
-                        <li class="alert alert-info">MySQL</li>
-                    </ul>
-                </div>
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="alert alert-success p-2">UI Frameworks:</div>
+					<ul class="skills-list">
+						<li class="alert alert-info">
+							<a
+									href="https://getbootstrap.com/"
+							target="_blank"
+							title="Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components.
 
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="alert alert-success p-2">Tools:</div>
-                    <ul class="skills-list">
-                        <li class="alert alert-info">Git</li>
-                        <li class="alert alert-info">SSH</li>
-                        <li class="alert alert-info">Linux Mint</li>
-                        <li class="alert alert-info">JetBrains <a href="https://www.jetbrains.com/pycharm/" target="_blank">PyCharm</a> IDE</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+Bootstrap is the third-most-starred project on GitHub."
+							>Twitter Bootstrap</a></li>
+						<li class="alert alert-info">Material Design</li>
+						<li class="alert alert-info">Zurb Foundation (usefull for PSD-to-Email)</li>
+					</ul>
+				</div>
 
-	<section class="advantages pt-5">
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="alert alert-success p-2">Back-end:</div>
+					<ul class="skills-list">
+						<li class="alert alert-info">Python</li>
+						<li class="alert alert-info">Flask</li>
+						<li class="alert alert-info">Django</li>
+						<li class="alert alert-info">Django Rest Framework</li>
+					</ul>
+				</div>
+
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="alert alert-success p-2">DB:</div>
+					<ul class="skills-list">
+						<li class="alert alert-info">SQLite</li>
+						<li class="alert alert-info">PostrgreSQL</li>
+						<li class="alert alert-info">MySQL</li>
+					</ul>
+				</div>
+
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="alert alert-success p-2">Tools:</div>
+					<ul class="skills-list">
+						<li class="alert alert-info"><a href="https://google.com/search?q=Git" target="_blank">Git</a></li>
+						<li class="alert alert-info"><a href="https://linuxmint.com/" target="_blank">Linux Mint</a> (Debian Unix OS)</li>
+						<li class="alert alert-info">JetBrains <a href="https://jetbrains.com/pycharm/" target="_blank">PyCharm</a> IDE</li>
+					</ul>
+				</div>
+
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="alert alert-success p-2">Interested In:</div>
+					<ul class="skills-list">
+						<li class="alert alert-info">
+							<a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">ASM</a> +
+							<a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C</a> +
+							<a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a>
+						</li>
+						<li class="alert alert-info"><a
+								href="https://www.raspberrypi.org/"
+								title="Your tiny, dual-display, desktop computer …and robot brains, smart home hub, media centre, networked AI core, factory controller, and much more."
+								target="_blank">RaspberryPi</a> + <a
+								href="https://www.arduino.cc/"
+								title="Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
+
+Over the years Arduino has been the brain of thousands of projects, from everyday objects to complex scientific instruments. A worldwide community of makers - students, hobbyists, artists, programmers, and professionals - has gathered around this open-source platform, their contributions have added up to an incredible amount of accessible knowledge that can be of great help to novices and experts alike.
+
+Arduino was born at the Ivrea Interaction Design Institute as an easy tool for fast prototyping, aimed at students without a background in electronics and programming. As soon as it reached a wider community, the Arduino board started changing to adapt to new needs and challenges, differentiating its offer from simple 8-bit boards to products for IoT applications, wearable, 3D printing, and embedded environments. All Arduino boards are completely open-source, empowering users to build them independently and eventually adapt them to their particular needs. The software, too, is open-source, and it is growing through the contributions of users worldwide."
+								target="_blank"
+						>Arduino</a></li>
+						<li class="alert alert-info">
+							<a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank">Embedded</a> +
+							<a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank">IoT</a> +
+							<a href="https://en.wikipedia.org/wiki/Home_automation" target="_blank">Smart Home</a></li>
+						<li class="alert alert-info">
+							<a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">ML</a> +
+							<a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">AI</a> +
+							<a href="https://en.wikipedia.org/wiki/Artificial_neural_network">NN</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section advantages pt-5">
 		<div class="container">
 			<div class="row">
 				<h2 class="text-center">В чём я хорош и почему вам нужен именно я?</h2>
@@ -123,7 +200,7 @@
 				<ul>
 					<li>Имею широкий кругозор в области IT, профильное высшее образование компьютерного инженера и программиста.</li>
 					<li>Постоянно занимаюсь самообразованием, совершенствую качество и скорость работы.</li>
-                    <li>Умею гуглить и знаю, что для библиотек и фреймворков пишется документация, а множество ответов на вопросы уже есть на StackOverflow. Любая задача решаема, вопрос в приложенных усилиях и количестве опыта в данной нише.</li>
+					<li>Умею гуглить и знаю, что для библиотек и фреймворков пишется документация, а множество ответов на вопросы уже есть на StackOverflow. Любая задача решаема, вопрос в приложенных усилиях и количестве опыта в данной нише.</li>
 					<li>Изучаю архитектуру, а не фреймворки.</li>
 					<li>Пишу чистый, аккуратный, структурированный, комментированный и масштабируемый код.</li>
 					<li>Читаю техническую документацию и могу вести переписку на английском.</li>
@@ -135,11 +212,8 @@
 			</div>
 		</div>
 	</section>
-</header>
 
-<main class="page-main">
-
-	<section class="portfolio pt-5">
+	<section class="section portfolio pt-5">
 		<div class="container">
 			<div class="row">
 				<h2 class="text-center">Portfolio</h2>
@@ -158,14 +232,65 @@
 		</div>
 	</section>
 
-
-	<section class="social-links pt-5" >
+	<section class="section social-links pt-5" >
 		<div class="container">
+
+
+			<div class="row mb-2">
+				<h2 class="text-center">Contacts</h2>
+			</div>
+
+			<div class="row">
+				<ul class="contacts__list">
+					<li class="contacts__item">
+						<img class="contacts__item-icon" src="images/telegram.svg" alt="Telegram">
+						Telegram: &nbsp;
+						<a class="contacts__link"
+						   href="https://t.me/eugene_zalivadnyi"
+						   title="Telegram"
+						   target="_blank">
+							@eugene_zalivadnyi
+						</a>
+					</li>
+					<li class="contacts__item">
+						<img class="contacts__item-icon" src="images/mobile-phone.svg" alt="Viber / WhatsApp/ Mobile (Vodafone, Ukraine)">
+						Mobile (Viber/WhatsApp): &nbsp;
+						<a class="contacts__link"
+						   href="tel:+380955371931"
+						   title="Viber / WhatsApp / Mobile (Vodafone, Ukraine)"
+						   target="_blank">
+							+38(095)537-19-31
+						</a>
+					</li>
+					<li class="contacts__item">
+						<img class="contacts__item-icon" src="images/skype.svg" alt="Skype">
+						Skype: &nbsp;
+						<a class="contacts__link"
+						   href="skype:eugene.zalivadnyi?call"
+						   title="Skype"
+						   target="_blank">
+							eugene.zalivadnyi
+						</a>
+					</li>
+					<li class="contacts__item">
+						<img class="contacts__item-icon" src="images/email.svg" alt="E-Mail">
+						E-Mail: &nbsp;
+						<a class="contacts__link"
+						   href="mailto:eugene.zalivadnyi@gmail.com"
+						   title="E-Mail"
+						   target="_blank">
+							eugene.zalivadnyi@gmail.com
+						</a>
+					</li>
+				</ul>
+			</div>
+
+
 			<div class="row">
 				<h2 class="text-center">Links</h2>
 			</div>
 
-			<div class="row">
+			<div class="row mb-4">
 				<!--Начало ссылок на социальные профили-->
 				<ul class="social-links__list">
 					<li class="social-links__item">
@@ -219,86 +344,37 @@
 				</ul>
 				<!--Конец ссылок на социальные профили-->
 			</div>
+
 		</div>
 	</section>
 
-
-	<section class="contacts pt-5">
-		<div class="container">
-			<div class="row">
-				<h2 class="text-center">Contacts</h2>
+	<footer class="section page-footer">
+		<!-- Tweets by Eugene Zalivadnyi -->
+		<section class="twitter pt-5">
+			<div class="container">
+				<div class="row">
+					<a style="margin: auto"
+					   class="twitter-timeline"
+					   data-dnt="true"
+					   data-height="700"
+					   data-theme="dark"
+					   data-link-color="#ffffff"
+					   href="https://twitter.com/zalivadnyi?ref_src=twsrc%5Etfw">Tweets by Eugene Zalivadnyi</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
 			</div>
+		</section>
 
-			<div class="row">
-				<ul class="contacts__list">
-					<li class="contacts__item">
-						<img class="contacts__item-icon" src="images/telegram.svg" alt="Telegram">
-						Telegram: &nbsp;
-						<a class="contacts__link"
-						   href="https://t.me/eugene_zalivadnyi"
-						   title="Telegram"
-						   target="_blank">
-							@eugene_zalivadnyi
-						</a>
-					</li>
-					<li class="contacts__item">
-						<img class="contacts__item-icon" src="images/mobile-phone.svg" alt="Viber / WhatsApp/ Mobile (Vodafone, Ukraine)">
-						Mobile (Viber/WhatsApp): &nbsp;
-						<a class="contacts__link"
-						   href="tel:+380955371931"
-						   title="Viber / WhatsApp / Mobile (Vodafone, Ukraine)"
-						   target="_blank">
-							+38(095)537-19-31
-						</a>
-					</li>
-					<li class="contacts__item">
-						<img class="contacts__item-icon" src="images/skype.svg" alt="Skype">
-						Skype: &nbsp;
-						<a class="contacts__link"
-						   href="skype:eugene.zalivadnyi?call"
-						   title="Skype"
-						   target="_blank">
-							eugene.zalivadnyi
-						</a>
-					</li>
-					<li class="contacts__item">
-						<img class="contacts__item-icon" src="images/email.svg" alt="E-Mail">
-						E-Mail: &nbsp;
-						<a class="contacts__link"
-						   href="mailto:eugene.zalivadnyi@gmail.com"
-						   title="E-Mail"
-						   target="_blank">
-							eugene.zalivadnyi@gmail.com
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</main>
+		<section class="copyright">
+			 Eugene Zalivadnyi &copy; <script>document.write(new Date().getFullYear())</script>
+		</section>
+	</footer>
+</div>
 
-<footer class="page-footer">
-	<!-- Tweets by Eugene Zalivadnyi -->
-	<section class="twitter pt-5">
-		<div class="container">
-			<div class="row">
-				<a style="margin: auto"
-				   class="twitter-timeline"
-				   data-dnt="true"
-				   data-theme="dark"
-				   data-link-color="#ffffff"
-				   href="https://twitter.com/zalivadnyi?ref_src=twsrc%5Etfw">Tweets by Eugene Zalivadnyi</a>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
-		</div>
-	</section>
-
-	<section class="copyright">
-		 Eugene Zalivadnyi &copy; <script>document.write(new Date().getFullYear())</script>
-	</section>
-</footer>
+<link rel="stylesheet" href="css/bootstrap.min.css">
 
 <script src="js/jquery.min.js"></script>
+<script src="js/fullpage.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
 <script src="js/scripts.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
