@@ -13,7 +13,7 @@ $(document).ready(function () {
             'rgba(38, 14, 236, 0.18)',
             'rgba(16, 255, 0, 0.22)',
         ],
-        anchors:['page-header', 'skillsPage', 'advantagesPage', 'contactsPage', 'page-footer'],
+        anchors:['page-header', 'skillsPage', 'contactsPage', 'page-footer'],
         menu: '#menu',
         lazyLoad: true
 	});
