@@ -3,7 +3,7 @@ html {
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #111111;
+    background-color: black;
     color: #ffffff;
     font-size: 18px;
     line-height: 22px;
@@ -11,65 +11,6 @@ body{
 
 .page-header{
     /*padding: 20% 20px;*/
-}
-
-#menu {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    height: 40px;
-    z-index: 70;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    margin-left: -50%;
-    text-align: center;
-}
-
-#menu li {
-    display: inline-block;
-    margin: 10px;
-    color: #000;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.5);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-#menu li a, #menu li.active a {
-    padding: 9px 18px;
-    display: block;
-}
-#menu li a {
-    text-decoration: none;
-    color: #000;
-}
-#menu li.active {
-    background: #666;
-    background: rgba(0, 0, 0, 0.18);
-    color: #fff;
-}
-.scroll-down{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    margin-left: -20px;
-}
-
-/*.scroll-down:hover{*/
-/*    cursor: pointer;*/
-/*}*/
-
-.scroll-down-mouse{
-    width: 40px;
-    padding: 20px 0 25px;
-    filter: brightness(0) invert(1);
-}
-
-.scroll-down-arrows{
-    width: 20px;
 }
 
 .bounce {
@@ -157,18 +98,18 @@ body{
 }
 
 .social-links__list{
+    width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .social-links__item{
-    margin-bottom: 15px;
 }
 #particles-js{
     position: absolute;
@@ -192,12 +133,6 @@ a:hover{
     text-decoration: underline;
     outline: 0;
 }
-.social-links__link{
-    /*display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;*/
-}
 .social-links__icon {
     width: 30px;
     height: 30px;
@@ -210,19 +145,20 @@ a:hover{
     margin-bottom: 5px;
 }
 .contacts__list{
+    width: 100%;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    max-width: 500px;
 }
 
 .contacts__item{
     display: flex;
-    width: 100%;
     margin-right: 10px;
     margin-bottom: 15px;
 }
