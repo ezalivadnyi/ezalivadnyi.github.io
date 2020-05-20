@@ -110,6 +110,7 @@ body{
 }
 
 .social-links__item{
+    margin-bottom: 5px;
 }
 #particles-js{
     position: absolute;
