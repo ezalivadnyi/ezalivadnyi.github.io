@@ -210,6 +210,7 @@ a:hover{
 .skills-list{
     list-style: none;
     display: flex;
+    margin-bottom: 0;
 }
 .skills-list li{
     padding: 5px;
@@ -218,11 +219,16 @@ a:hover{
 }
 
 .skills-list a{
-    color: #000;
+    color: #fff;
+}
+
+.alert{
+    margin-bottom: 4px;
 }
 
 .alert-success{
     background-color: #3cbb5a;
+    padding: 0 6px !important;
 }
 
 .alert-info{
