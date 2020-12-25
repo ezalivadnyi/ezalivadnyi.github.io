@@ -9,10 +9,6 @@ body{
     line-height: 22px;
 }
 
-.page-header{
-    /*padding: 20% 20px;*/
-}
-
 .bounce {
 	-moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;
@@ -89,13 +85,11 @@ body{
 }
 
 .copyright{
+    width: 100%;
     text-align: center;
     padding: 20px;
 }
 
-.social-links{
-
-}
 
 .social-links__list{
     width: 100%;
@@ -139,9 +133,6 @@ a:hover{
     height: 30px;
 }
 
-.contacts{
-
-}
 .stack .label{
     margin-bottom: 5px;
 }
@@ -194,8 +185,6 @@ a:hover{
     padding: 20px;
     margin: auto;
  }
-.header-logo{
-}
 
 .header-logo__text{
     text-align: center;
