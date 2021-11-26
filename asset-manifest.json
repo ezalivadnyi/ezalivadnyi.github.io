@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ezalivadnyi.github.io/static/css/main.37c36374.chunk.css",
+    "main.js": "/ezalivadnyi.github.io/static/js/main.ebc9d7a0.chunk.js",
+    "main.js.map": "/ezalivadnyi.github.io/static/js/main.ebc9d7a0.chunk.js.map",
+    "runtime-main.js": "/ezalivadnyi.github.io/static/js/runtime-main.04ff715b.js",
+    "runtime-main.js.map": "/ezalivadnyi.github.io/static/js/runtime-main.04ff715b.js.map",
+    "static/css/2.a712b5f5.chunk.css": "/ezalivadnyi.github.io/static/css/2.a712b5f5.chunk.css",
+    "static/js/2.dd329a08.chunk.js": "/ezalivadnyi.github.io/static/js/2.dd329a08.chunk.js",
+    "static/js/2.dd329a08.chunk.js.map": "/ezalivadnyi.github.io/static/js/2.dd329a08.chunk.js.map",
+    "static/js/3.57129d92.chunk.js": "/ezalivadnyi.github.io/static/js/3.57129d92.chunk.js",
+    "static/js/3.57129d92.chunk.js.map": "/ezalivadnyi.github.io/static/js/3.57129d92.chunk.js.map",
+    "index.html": "/ezalivadnyi.github.io/index.html",
+    "static/css/2.a712b5f5.chunk.css.map": "/ezalivadnyi.github.io/static/css/2.a712b5f5.chunk.css.map",
+    "static/css/main.37c36374.chunk.css.map": "/ezalivadnyi.github.io/static/css/main.37c36374.chunk.css.map",
+    "static/js/2.dd329a08.chunk.js.LICENSE.txt": "/ezalivadnyi.github.io/static/js/2.dd329a08.chunk.js.LICENSE.txt",
+    "static/media/email.7d346abd.svg": "/ezalivadnyi.github.io/static/media/email.7d346abd.svg",
+    "static/media/github.bf723dcd.svg": "/ezalivadnyi.github.io/static/media/github.bf723dcd.svg",
+    "static/media/linkedin.e7d62931.svg": "/ezalivadnyi.github.io/static/media/linkedin.e7d62931.svg",
+    "static/media/mobile-phone.33bcf58d.svg": "/ezalivadnyi.github.io/static/media/mobile-phone.33bcf58d.svg",
+    "static/media/skype.52016c8f.svg": "/ezalivadnyi.github.io/static/media/skype.52016c8f.svg",
+    "static/media/so-icon.e2c178bc.svg": "/ezalivadnyi.github.io/static/media/so-icon.e2c178bc.svg",
+    "static/media/telegram.ddb9723e.svg": "/ezalivadnyi.github.io/static/media/telegram.ddb9723e.svg",
+    "static/media/twitter.a4444ef9.svg": "/ezalivadnyi.github.io/static/media/twitter.a4444ef9.svg",
+    "static/media/upwork.f60c02e7.svg": "/ezalivadnyi.github.io/static/media/upwork.f60c02e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04ff715b.js",
+    "static/css/2.a712b5f5.chunk.css",
+    "static/js/2.dd329a08.chunk.js",
+    "static/css/main.37c36374.chunk.css",
+    "static/js/main.ebc9d7a0.chunk.js"
+  ]
+}
